@@ -65,7 +65,7 @@ public class Main {
     public static void solveQuadraticEquation() {
         int a, b, c;
         double y;
-        System.out.println("enter a,b,c");
+        System.out.println("Введите переменные a, b, c");
         y = Math.random() * 10;
         a = (int) y;
         y = Math.random() * 10;
@@ -76,7 +76,7 @@ public class Main {
         double D = Math.pow(b, 2) - 4 * a * c;
         System.out.println("D=" + D);
         if (D < 0) {
-            System.out.println("There are no roots");
+            System.out.println("Нет корней");
         } else if (D == 0) {
             double x = -(b / 2.0 * a);
             System.out.println("x=" + x);
